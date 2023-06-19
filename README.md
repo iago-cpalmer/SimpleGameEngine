@@ -19,4 +19,4 @@ Other features specific to the scene:
 - Nested transformations: solar system, robot arm and Frame, table & note.
 
 # Demo Video:
-[![Demo Video](https://github.com/iago-cpalmer/SimpleGameEngine/assets/68129919/5e642f86-0ba9-4cb7-97c0-b189f842df33)](https://www.youtube.com/watch?v=VHlE1FgZDWs&ab_channel=IagoCaldenteyPalmer "Demo Simple Game Engine for Computer Graphics Class Practice")
+[![Demo Video](https://github.com/iago-cpalmer/SimpleGameEngine/assets/68129919/5e642f86-0ba9-4cb7-97c0-b189f842df33)](https://www.youtube.com/watch?v=VHlE1FgZDWs&ab_channel=IagoCaldenteyPalmer "Demo Simple Game Engine for Computer")
