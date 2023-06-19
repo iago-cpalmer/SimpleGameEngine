@@ -4,7 +4,6 @@ This was made for a class practice in which the main goal was to create a basic 
 The end goal then of this simple game engine is to be able to create a scene with objects and their components. But also, to learn how to implement different kind of things from scratch such as text rendering, raycasting... 
 <br />
 ## Features:
-<br />
 - Loading and rendering 3D models (.obj) with textures (any format file) using stb library to load textures.
 - Objects with components that define its behaviour.
 - Abstracted Input System.
@@ -13,7 +12,7 @@ The end goal then of this simple game engine is to be able to create a scene wit
 - Simple Audio System using Winmm library.
 - Simple UI using the Billboard approach.
 - Text Rendering using a font map.
-<br />
+
 ## Other features specific to the scene:
 <br />
 - Player Controller to move horizontally (WASD) and vertically (jump and gravity)
