@@ -18,5 +18,4 @@ Other features specific to the scene:
 - Interaction system with raycasting to interact with some objects if you look at them such as the candles and notes.
 - Nested transformations: solar system, robot arm and Frame, table & note.
 
-<br/>
 [![Demo Video](https://imgur.com/wSW2n4W)](https://www.youtube.com/watch?v=VHlE1FgZDWs&ab_channel=IagoCaldenteyPalmer "Demo Simple Game Engine for Computer Graphics Class Practice")
