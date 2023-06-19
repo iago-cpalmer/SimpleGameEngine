@@ -14,7 +14,6 @@ The end goal then of this simple game engine is to be able to create a scene wit
 - Text Rendering using a font map.
 
 ## Other features specific to the scene:
-<br />
 - Player Controller to move horizontally (WASD) and vertically (jump and gravity).
 - First person camera movement with mouse.
 - Interaction system with raycasting to interact with some objects if you look at them such as the candles and notes.
