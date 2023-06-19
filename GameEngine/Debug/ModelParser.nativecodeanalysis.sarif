@@ -1,0 +1,1933 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "La función usa '34968' bytes de la pila:  supera /analyze:stacksize '16384'. Considere mover algunos datos al montón."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6962,
+                  "startColumn": 14,
+                  "endLine": 6962,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?stbi__load_gif_main@@YAPAXPAUstbi__context@@PAPAHPAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "La función usa '34932' bytes de la pila:  supera /analyze:stacksize '16384'. Considere mover algunos datos al montón."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7047,
+                  "startColumn": 14,
+                  "endLine": 7047,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?stbi__gif_load@@YAPAXPAUstbi__context@@PAH11HPAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Saturación de búfer al escribir en 'faceArray':  el tamaño de escritura son 'numElements*4' bytes, pero se pueden escribir '8' bytes."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                },
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 3,
+                  "endLine": 158,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ParseObj@@YAPAUModel@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 98,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 133,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 135,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 136,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 136,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 136,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 138,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 141,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 148,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'faceArray' es una matriz de 1 elementos (4 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 149,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 149,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 151,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 149,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 149,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 155,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 156,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 156,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 158,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 160,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 162,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "'i' puede ser igual a 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 156,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 156,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 158,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Escritura no válida en 'faceArray[1]', (el intervalo de escritura comprende de 0 a 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Lectura de datos no válidos de 'image->data':  el tamaño de lectura son 'size' bytes, pero se pueden leer '3' bytes."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                },
+                "region": {
+                  "startLine": 253,
+                  "startColumn": 3,
+                  "endLine": 253,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ImageLoad@@YAHPADPAUImage@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 193,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 194,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 195,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 196,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 197,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 199,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 200,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 201,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'err!=0' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 206,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 208,
+                            "startColumn": 45
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que '<condición de bifurcación>' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 214,
+                            "startColumn": 45
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que '<condición de bifurcación>' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 220,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 222,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que '<condición de bifurcación>' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 226,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'planes!=1' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 231,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que '<condición de bifurcación>' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 235,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'bpp!=24' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 240,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 242,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'image->data==0' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 247,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "'data' es un argumento In/Out para 'fread' (declarado en c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:239)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 247,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que '<condición de bifurcación>' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 251,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'i' es NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 251,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar en este bucle, (se asume 'i<size')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 252,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 253,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Lectura no válida de 'image->data', (fuera del intervalo de lectura)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Saturación de búfer al escribir en 'image->data':  el tamaño de escritura son 'size' bytes, pero se pueden escribir '3' bytes."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                },
+                "region": {
+                  "startLine": 254,
+                  "startColumn": 3,
+                  "endLine": 254,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ImageLoad@@YAHPADPAUImage@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 193,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 194,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 195,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 196,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 197,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 199,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 200,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 201,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'err!=0' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 206,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 208,
+                            "startColumn": 45
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que '<condición de bifurcación>' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 214,
+                            "startColumn": 45
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que '<condición de bifurcación>' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 220,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 222,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que '<condición de bifurcación>' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 226,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'planes!=1' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 231,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que '<condición de bifurcación>' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 235,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'bpp!=24' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 240,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 242,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'image->data==0' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 247,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "'data' es un argumento In/Out para 'fread' (declarado en c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:239)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 247,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que '<condición de bifurcación>' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 251,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'i' es NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 251,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar en este bucle, (se asume 'i<size')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 252,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 253,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                          },
+                          "region": {
+                            "startLine": 254,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Escritura no válida en 'image->data', (fuera del intervalo de escritura)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "El tipo de enumeración \"MESH\" no tiene ámbito. Prefiera \"enum class\" a \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+                },
+                "region": {
+                  "startLine": 534,
+                  "startColumn": 8,
+                  "endLine": 534,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getMesh@@YAPAUModel@@W4MESH@@VVector3f@@1MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30140.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00E2D1C0 -il C:\\Users\\joanc\\AppData\\Local\\Temp\\_CL_0c34b920ast -typedil -f ModelParser.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930140 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\ModelParser.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\Proyectos\\Clase\\PracticasCG\\test -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\Proyectos\\Clase\\PracticasCG\\test\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I D:\\Proyectos\\Clase\\PracticasCG\\test\\Include\\um -I D:\\Proyectos\\Clase\\PracticasCG\\test\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/time.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "f0d02f1e7caeda13dd5e11eae904f31d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/time.h"
+          },
+          "hashes": {
+            "md5": "75de53b60855c135a8a19632185c13d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/raycast.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "8b69210b3f022e25f5124118d91b79df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/raycast.h"
+          },
+          "hashes": {
+            "md5": "f3aeee0aee51916ffea899cec32b121a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/sceneobject.h"
+          },
+          "hashes": {
+            "md5": "bb7c393b2dbbeaa458f82aa66b5bc056"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/vector3f.h"
+          },
+          "hashes": {
+            "md5": "7e61b5d85857c4f8b864b504bc78de1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/boxcollider.h"
+          },
+          "hashes": {
+            "md5": "a09d5f5cc8e6b29f544efc1b6ef9ec0e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/objectcomponent.h"
+          },
+          "hashes": {
+            "md5": "d33cae14a09a29636a847d0c57b8f56c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/globalvariables.h"
+          },
+          "hashes": {
+            "md5": "3ba0ab527567d5ecefb70049e124cc3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/scene.h"
+          },
+          "hashes": {
+            "md5": "cb3c6f5ebb08eaaaba1c757b57d554fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/camera.h"
+          },
+          "hashes": {
+            "md5": "fcca83b5cc19b4cbe50dfe7f5cf985b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft visual studio/2019/community/vc/auxiliary/vs/include/gl/glut.h"
+          },
+          "hashes": {
+            "md5": "40d598e39383b857f62796a1f5dab396"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/Source.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c5a5d54fb709cc9b23249b84949d6c0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/source.h"
+          },
+          "hashes": {
+            "md5": "16575435ea6a3638f093c7662f17c70e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/modelparser.h"
+          },
+          "hashes": {
+            "md5": "72f2b4e59af7a13525b818f01ef7ff2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/vector3int.h"
+          },
+          "hashes": {
+            "md5": "439e57b77f4ac480d6a45267d61de68d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/meshrenderer.h"
+          },
+          "hashes": {
+            "md5": "f6db9095dfac6b5f3a46c09c241c741c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/inputmanager.h"
+          },
+          "hashes": {
+            "md5": "b2a321036a02f37606deca2be3080d31"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/charactercontroller.h"
+          },
+          "hashes": {
+            "md5": "7f43f6d5bc8619ec6d1922b4b3170d6e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/interactioncontroller.h"
+          },
+          "hashes": {
+            "md5": "bc5a6f6cb1e661616710a7a748a8610d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/lightinteractionhandler.h"
+          },
+          "hashes": {
+            "md5": "798261fd27ad2b8896faea626a9a1cae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/interactionhandler.h"
+          },
+          "hashes": {
+            "md5": "349fb6850af78b52ad9174ef93be7d04"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/noteinteractionhandler.h"
+          },
+          "hashes": {
+            "md5": "bc93cce158c1ac777fea16e0235a0aca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/planetcontroller.h"
+          },
+          "hashes": {
+            "md5": "1f01d4eeeea18113de18c2626e7cd91e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/robotarmcontroller.h"
+          },
+          "hashes": {
+            "md5": "cb5fd4084fb6b2e21ea232799035e3cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/audiomanager.h"
+          },
+          "hashes": {
+            "md5": "69e9e520f987bf4d5776b979c3a846c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/SceneObject.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a4e8098dda1e27d4aca3ae62e3c63459"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/scene.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "852a3a6ac672509d8f6e9a11eed17916"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/robotarmcontroller.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b3f1768104b2aecf98f125e1329da222"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/planetcontroller.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "bb23f8d8705ec1061ba950cd8f431e92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/objectcomponent.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "e1c45af168df3e0d47593556ae9813eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/NoteInteractionHandler.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8e9fbe8130d9c5bb92d1920cf855c43e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/stb_image.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "28aec42a6185ccea514cd0deb1f5d110"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8088c6bd3a04a89f4ee10667d04ad917"
+          }
+        }
+      ]
+    }
+  ]
+}

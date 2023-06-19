@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Proyectos\Clase\PracticasCG\test\</FILEPATH>
+      <FILENAME>Vector3Int.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Vector3Int::x" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Vector3Int::{ctor}</FUNCTION>
+    <DECORATED>??0Vector3Int@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Vector3Int::x</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Proyectos\Clase\PracticasCG\test\</FILEPATH>
+      <FILENAME>Vector3Int.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Vector3Int::z" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Vector3Int::{ctor}</FUNCTION>
+    <DECORATED>??0Vector3Int@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Vector3Int::z</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Proyectos\Clase\PracticasCG\test\</FILEPATH>
+      <FILENAME>Vector3Int.cpp</FILENAME>
+      <LINE>2</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Vector3Int::y" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Vector3Int::{ctor}</FUNCTION>
+    <DECORATED>??0Vector3Int@@QAE@XZ</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Vector3Int::y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

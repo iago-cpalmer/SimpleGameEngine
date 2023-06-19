@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Proyectos\Clase\PracticasCG\test\</FILEPATH>
+      <FILENAME>SceneObject.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>El tipo de enumeración "FLAG" no tiene ámbito. Prefiera "enum class" a "enum" (Enum.3).</DESCRIPTION>
+    <FUNCTION>SceneObject::{ctor}</FUNCTION>
+    <DECORATED>??0SceneObject@@QAE@VVector3f@@000V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAW4FLAG@@H@Z</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

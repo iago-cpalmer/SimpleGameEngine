@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Proyectos\Clase\PracticasCG\test\</FILEPATH>
+      <FILENAME>Source.cpp</FILENAME>
+      <LINE>462</LINE>
+      <COLUMN>149</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>El tipo de enumeración "FLAG" no tiene ámbito. Prefiera "enum class" a "enum" (Enum.3).</DESCRIPTION>
+    <FUNCTION>initTable</FUNCTION>
+    <DECORATED>?initTable@@YAXHPAV?$list@PAVSceneObject@@V?$allocator@PAVSceneObject@@@std@@@std@@MMMH@Z</DECORATED>
+    <FUNCLINE>456</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Proyectos\Clase\PracticasCG\test\</FILEPATH>
+      <FILENAME>Source.cpp</FILENAME>
+      <LINE>656</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>El tipo de enumeración "InputManager::Key" no tiene ámbito. Prefiera "enum class" a "enum" (Enum.3).</DESCRIPTION>
+    <FUNCTION>KeyboardUpHandler</FUNCTION>
+    <DECORATED>?KeyboardUpHandler@@YAXEHH@Z</DECORATED>
+    <FUNCLINE>655</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

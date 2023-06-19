@@ -1,0 +1,566 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"Vector3f::x\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/Vector3f.cpp"
+                },
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 11,
+                  "endLine": 2,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Vector3f@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Vector3f::x"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"Vector3f::z\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/Vector3f.cpp"
+                },
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 11,
+                  "endLine": 2,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Vector3f@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Vector3f::z"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"Vector3f::y\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/Vector3f.cpp"
+                },
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 11,
+                  "endLine": 2,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Vector3f@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Vector3f::y"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30140.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00E2D1C0 -il C:\\Users\\joanc\\AppData\\Local\\Temp\\_CL_e2ad00deast -typedil -f Vector3f.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930140 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\Vector3f.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\Proyectos\\Clase\\PracticasCG\\test -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\Proyectos\\Clase\\PracticasCG\\test\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I D:\\Proyectos\\Clase\\PracticasCG\\test\\Include\\um -I D:\\Proyectos\\Clase\\PracticasCG\\test\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/time.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "f0d02f1e7caeda13dd5e11eae904f31d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/time.h"
+          },
+          "hashes": {
+            "md5": "75de53b60855c135a8a19632185c13d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/raycast.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "8b69210b3f022e25f5124118d91b79df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/raycast.h"
+          },
+          "hashes": {
+            "md5": "f3aeee0aee51916ffea899cec32b121a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/sceneobject.h"
+          },
+          "hashes": {
+            "md5": "bb7c393b2dbbeaa458f82aa66b5bc056"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/vector3f.h"
+          },
+          "hashes": {
+            "md5": "7e61b5d85857c4f8b864b504bc78de1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/boxcollider.h"
+          },
+          "hashes": {
+            "md5": "a09d5f5cc8e6b29f544efc1b6ef9ec0e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/objectcomponent.h"
+          },
+          "hashes": {
+            "md5": "d33cae14a09a29636a847d0c57b8f56c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/globalvariables.h"
+          },
+          "hashes": {
+            "md5": "3ba0ab527567d5ecefb70049e124cc3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/scene.h"
+          },
+          "hashes": {
+            "md5": "cb3c6f5ebb08eaaaba1c757b57d554fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/camera.h"
+          },
+          "hashes": {
+            "md5": "fcca83b5cc19b4cbe50dfe7f5cf985b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft visual studio/2019/community/vc/auxiliary/vs/include/gl/glut.h"
+          },
+          "hashes": {
+            "md5": "40d598e39383b857f62796a1f5dab396"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/Source.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c5a5d54fb709cc9b23249b84949d6c0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/source.h"
+          },
+          "hashes": {
+            "md5": "16575435ea6a3638f093c7662f17c70e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/modelparser.h"
+          },
+          "hashes": {
+            "md5": "72f2b4e59af7a13525b818f01ef7ff2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/vector3int.h"
+          },
+          "hashes": {
+            "md5": "439e57b77f4ac480d6a45267d61de68d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/meshrenderer.h"
+          },
+          "hashes": {
+            "md5": "f6db9095dfac6b5f3a46c09c241c741c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/inputmanager.h"
+          },
+          "hashes": {
+            "md5": "b2a321036a02f37606deca2be3080d31"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/charactercontroller.h"
+          },
+          "hashes": {
+            "md5": "7f43f6d5bc8619ec6d1922b4b3170d6e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/interactioncontroller.h"
+          },
+          "hashes": {
+            "md5": "bc5a6f6cb1e661616710a7a748a8610d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/lightinteractionhandler.h"
+          },
+          "hashes": {
+            "md5": "798261fd27ad2b8896faea626a9a1cae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/interactionhandler.h"
+          },
+          "hashes": {
+            "md5": "349fb6850af78b52ad9174ef93be7d04"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/noteinteractionhandler.h"
+          },
+          "hashes": {
+            "md5": "bc93cce158c1ac777fea16e0235a0aca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/planetcontroller.h"
+          },
+          "hashes": {
+            "md5": "1f01d4eeeea18113de18c2626e7cd91e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/robotarmcontroller.h"
+          },
+          "hashes": {
+            "md5": "cb5fd4084fb6b2e21ea232799035e3cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/audiomanager.h"
+          },
+          "hashes": {
+            "md5": "69e9e520f987bf4d5776b979c3a846c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/SceneObject.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a4e8098dda1e27d4aca3ae62e3c63459"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/scene.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "852a3a6ac672509d8f6e9a11eed17916"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/robotarmcontroller.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b3f1768104b2aecf98f125e1329da222"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/planetcontroller.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "bb23f8d8705ec1061ba950cd8f431e92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/objectcomponent.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "e1c45af168df3e0d47593556ae9813eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/NoteInteractionHandler.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8e9fbe8130d9c5bb92d1920cf855c43e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/stb_image.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "28aec42a6185ccea514cd0deb1f5d110"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/ModelParser.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8088c6bd3a04a89f4ee10667d04ad917"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/MeshRenderer.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3a4f4745c2940236b18a748f2032d0f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/LightInteractionHandler.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "92e3cb97c8ba8e58e74198769aec719d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/InteractionHandler.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d63064b3edace43b9f686cbefe90b66f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/InteractionController.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "7e471af1e3ebfdfc9e3312892ae5d234"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/InputManager.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "43ee1a2a043c3939d6c4818b7bae6db1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/GlobalVariables.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "f109c976dbc46f67ebd97677951a0a18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/charactercontroller.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "1a38c5e0ba505253fe9b0ec775f658a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/Camera.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "48885de3eaa97649e0aae4c62be2ed39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/boxcollider.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "08d406aae0e87b45ee31c9a92790e147"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/proyectos/clase/practicascg/test/audiomanager.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "a7cfb1715f842a8d0f7e5b618fa2dd70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/Vector3Int.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "5edce99685507cf7aeed57c04d1b8064"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Proyectos/Clase/PracticasCG/test/Vector3f.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "918802043b7f727d83eaf3bda965cdec"
+          }
+        }
+      ]
+    }
+  ]
+}
