@@ -18,7 +18,7 @@ The end goal then of this simple game engine is to be able to create a scene wit
 - Player Controller to move horizontally (WASD) and vertically (jump and gravity).
 - First person camera movement with mouse.
 - Interaction system with raycasting to interact with some objects if you look at them such as the candles and notes.
-- Nested transformations: solar system, robot arm and Frame, table & note.
+-  Nested transformations: solar system, robot arm and Frame, table & note.
 
 # Demo Video:
 https://www.youtube.com/watch?v=VHlE1FgZDWs&ab_channel=IagoCaldenteyPalmer
