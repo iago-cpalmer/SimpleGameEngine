@@ -6,6 +6,7 @@ The end goal then of this simple game engine is to be able to create a scene wit
 ## Features:
 - Loading and rendering 3D models (.obj) with textures (any format file) using stb library to load textures.
 - Objects with components that define its behaviour.
+- Object hierarchy with nested transformations.
 - Abstracted Input System.
 - Collisions: box colliders
 - Raycasting
