@@ -1,6 +1,6 @@
 # SimpleGameEngine
 Simple Game Engine written in C++ using legacy OpenGL.
-This was made for a class practice in which the main goal was to create a basic 3D scene using legacy OpenGL but I took a bit further and I decided to create a game engine to create the scene with it.
+This was made for a class practice in which the main goal was to create a basic 3D scene using legacy OpenGL but I took it a bit further and I decided to create a game engine to create the scene with it.
 The end goal then of this simple game engine is to be able to create a scene with objects and their components. But also, to learn how to implement different kind of things from scratch such as text rendering, raycasting... 
 <br />
 ## Features:
